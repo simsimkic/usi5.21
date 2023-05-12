@@ -1,0 +1,12 @@
+﻿<Window x:Name="AdminForm" x:Class="ZdravoCorp.Views.AdminView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.Views"
+        mc:Ignorable="d"
+        Title="AdminView" Height="200" Width="300" Closed="AdminForm_Closed">
+    <Grid>
+        <Button x:Name="ButtonRegister" Content="Register Users" HorizontalAlignment="Center" Margin="0,54,0,0" VerticalAlignment="Top" Click="ButtonRegister_Click"/>
+    </Grid>
+</Window>
